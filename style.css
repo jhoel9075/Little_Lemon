@@ -9,6 +9,7 @@
     height: 20px;
     border: 0px;
     background: 0;
+    align-items: center;
 }
 
 .carta {
@@ -16,17 +17,20 @@
     height: 20px;
     border: 0px;
     background: 0;
+    align-items: center;
 }
 
 .encabezado {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 5px;
 }
 .marca {
     display: flex;
     flex-direction: row;
+    align-items: center;
     font-family:monospace;
 }
 
@@ -41,7 +45,8 @@
 .login-cart {
     display: flex;
     flex-direction: row;
+    align-items: center;
     color: green;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 24px;
 }
