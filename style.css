@@ -27,7 +27,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    
 }
 .marca {
     display: flex;
@@ -85,6 +84,7 @@
     border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
+    width: 100vw;
 }
 
 .veg {
@@ -96,6 +96,9 @@
     border: none;
     width: 15vh;
     color: white;
+    width: 20vw;
+    font-size: 2vw;
+    align-items: center;
 }
 .meat {
     background: green;
@@ -106,6 +109,9 @@
     border: none;
     width: 15vh;
     color: white;
+    width: 20vw;
+    font-size: 2vw;
+    align-items: center;
 }
 .asian {
     background: green;
@@ -116,4 +122,86 @@
     border: none;
     width: 15vh;
     color: white;
+    width: 20vw;
+    font-size: 2vw;
+    align-items: center;
+}
+
+.seccion4 {
+    
+    border: 1px solid black;
+    padding: 1rem;
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    height: 20vh;
+    width: 98vw;    
+    
+}
+
+.dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    height: 20vh;
+    width: 98vw;
+}
+.tres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 15px;
+    height: 20vh;
+    width: 98vw;
+}
+
+.brochetas {
+    border: 1px solid black;
+    flex-grow: 1;
+    width: 30vw;
+    
+}
+.carne {
+    border: 1px solid black;
+    flex-grow: 1;
+    width: 30vw;
+}
+
+.makis {
+    border: 1px solid black;
+    flex-grow: 1;
+    width: 30vw;
+}
+.text1 {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 3vw;
+    width: 80vw;
+    
+}
+.tex2 {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 3vw;
+    width: 80vw;
+    
+}
+.tex3 {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 3vw;
+    width: 80vw;
+    
+    
 }
