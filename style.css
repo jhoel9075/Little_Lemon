@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 5vh;
+    height: 20px;
+    border: 0px;
+    background: 0;
+}
+
+.carta {
+    width: 5vh;
+    height: 20px;
+    border: 0px;
+    background: 0;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.marca {
+    display: flex;
+    flex-direction: row;
+    font-family:monospace;
+}
+
+.encabezado1 {
+    color: rgb(243, 243, 8);
+}
+
+.encabezado2 {
+    color: green;
+}
+
+.login-cart {
+    display: flex;
+    flex-direction: row;
+    color: green;
+    font-family: monospace;
+    font-size: 15px;
+}
