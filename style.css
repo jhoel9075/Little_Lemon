@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 .menu {
@@ -26,12 +27,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    
 }
 .marca {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family:monospace;
 }
 
 .encabezado1 {
@@ -47,6 +48,33 @@
     flex-direction: row;
     align-items: center;
     color: green;
-    font-family: monospace;
     font-size: 24px;
+}
+
+.reserva {
+    background: green;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.seccion2 {
+    height: 50vh;
+}
+
+.sub-seccion2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-evenly;
+    height: 50vh;
+    color: white;
+    padding: 10px;
+    font-size: 3vw;
+}
+
+.restaurante {
+    position: relative;
+    z-index: -1;
+    height: 50vh;    
 }
