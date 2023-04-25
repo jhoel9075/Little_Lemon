@@ -60,6 +60,7 @@
 
 .seccion2 {
     height: 50vh;
+    border: 1px solid black;
 }
 
 .sub-seccion2 {
@@ -77,4 +78,42 @@
     position: relative;
     z-index: -1;
     height: 50vh;    
+}
+
+.seccion3 {
+    height: 10vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.veg {
+    background: green;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border: none;
+    width: 15vh;
+    color: white;
+}
+.meat {
+    background: green;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border: none;
+    width: 15vh;
+    color: white;
+}
+.asian {
+    background: green;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border: none;
+    width: 15vh;
+    color: white;
 }
