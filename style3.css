@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.back {
+    width: 10vh;
+    height: 20px;
+    border: 0px;
+    background: 0;
+    align-items: center;
+    color: green;
+    font-size: 20px;
+    
+}
+
+.carta {
+    width: 5vh;
+    height: 20px;
+    border: 0px;
+    background: 0;
+    align-items: center;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.marca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.encabezado1 {
+    color: rgb(243, 243, 8);
+}
+
+.encabezado2 {
+    color: green;
+}
+
+.login-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: green;
+    font-size: 24px;
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 125vh;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+}   
+
+.welcome {
+    color: green;
+    font-style: italic;
+    font-size: 10vw;
+}
+
+.little {
+    color: rgb(243, 243, 8);
+    font-style: italic;
+    font-size: 10vw;
+}
+.user, .pass {
+    height: 50px;
+    width: 50vw;
+}
+.formulario {
+    width: 100%;
+    align-items: center;
+}
+
+form {
+    background: green;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 5vw;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+.login-button {
+    background: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: green;
+    font-size: 5vw;
+}
+.new-account {
+    font-size: 4vw;
+    color: yellow;
+    padding: 40px;
+    text-shadow: 0px 4px 4px;
+}
