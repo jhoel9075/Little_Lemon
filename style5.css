@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.back {
+    width: 10vh;
+    height: 20px;
+    border: 0px;
+    background: 0;
+    align-items: center;
+    color: green;
+    font-size: 20px;
+}
+
+.carta {
+    width: 5vh;
+    height: 20px;
+    border: 0px;
+    background: 0;
+    align-items: center;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.marca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.encabezado1 {
+    color: rgb(243, 243, 8);
+}
+
+.encabezado2 {
+    color: green;
+}
+.user {
+    width: 10vh;
+    height: 20px;
+    border: 0px;
+    background: 0;
+    align-items: center;
+    color: green;
+    font-size: 20px;
+}
+
+.login-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: green;
+    font-size: 24px;
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 125vh;
+    justify-content: space-evenly;
+    border: none;
+    height: 25%;
+}   
+
+.welcome {
+    color: green;
+    font-style: italic;
+    font-size: 8vw;
+}
+
+.seccion2-2 {
+    border: 1px solid yellow;
+    width: 90%;
+}
+
+.cuadrado, .cuadrado2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.p1, .p2, .p3, .p4 {
+    margin: 20px;
+    padding: 40px;
+    
+}
+
+.t1, .t2, .t3, .t4 {
+    border: 1px solid green;
+    border-radius: 100px;
+    font-size: 5vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+
+.date, .create {
+    height: 50px;
+    width: 50vw;
+}
+
+label {
+    display: flex;
+    width: 50%;
+}
+form {
+    padding: 10px;
+    margin: 20px;
+    font-size: 5vw;
+    color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkout {
+    background: green;
+    padding: 10px;
+    border: none;
+    color: yellow;
+    font-size: 5vw;
+    font-style: italic;
+    width: 50vw;
+}
