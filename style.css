@@ -55,6 +55,7 @@
     color: white;
     border-radius: 10px;
     padding: 2px;
+    text-align: center;
 }
 
 .seccion2 {
@@ -189,6 +190,7 @@
     font-size: 3vw;
     width: 80vw;
     
+    
 }
 .tex2 {
     border: 1px solid black;
@@ -196,12 +198,14 @@
     font-size: 3vw;
     width: 80vw;
     
+    
 }
 .tex3 {
     border: 1px solid black;
     padding: 20px;
     font-size: 3vw;
     width: 80vw;
+    
     
     
 }
