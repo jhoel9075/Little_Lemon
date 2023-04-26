@@ -6,11 +6,14 @@
 }
 
 .back {
-    width: 5vh;
+    width: 10vh;
     height: 20px;
     border: 0px;
     background: 0;
     align-items: center;
+    color: green;
+    font-size: 20px;
+    
 }
 
 .carta {
